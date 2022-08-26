@@ -10,8 +10,8 @@ nav{
     width: auto;
     overflow: hidden;
     margin-top:0;
+    margin-bottom: 2rem;
     padding-top: 0;
-    padding-bottom: 2rem;
 
 }
 #name{
@@ -57,16 +57,15 @@ nav{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     margin-top: 20px;
-    align-items: center;
 }
 #about-me-container img{
     overflow: auto;
-    width: 15rem;
+    width: 13rem;
     grid-column:2;
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
-    border-right: 5px solid grey;
-    border-left: 5px solid grey;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
     border-radius: 5px;
 }
 #about-me-text{
@@ -78,10 +77,9 @@ nav{
 #projects-container{
     display: grid;
     grid-template-columns: 1fr 1.25fr 1.25fr 1.25fr 1fr;
-
     height: 20rem;
     justify-items: center;
-    margin-top: 30px;
+    margin-top: 4rem;
 }
 #project-1{
     border: 1px black solid;
@@ -116,6 +114,10 @@ nav{
     margin-top: 20px;
     font-family: 'Silkscreen', cursive;
 }
+#project-1-label:hover{
+    animation: twirl 1.5s forwards;
+}
+
 #project-2-label{
     display:flex;
     align-items:flex-start;
@@ -124,6 +126,9 @@ nav{
     grid-column: 3;
     font-family: 'Silkscreen', cursive;
     grid-row: 1;
+}
+#project-2-label:hover{
+    animation: twirl 1.5s forwards;
 }
 #project-3-label{
     display:flex;
@@ -134,12 +139,15 @@ nav{
     align-items:flex-start;
     font-family: 'Silkscreen', cursive;
 }
+#project-3-label:hover{
+    animation: twirl 1.5s forwards;
+}
 #Contact-container{
     display: block;
     width:65%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 #Contact-container a{
     cursor:pointer;
@@ -181,4 +189,9 @@ footer{
     font-family: 'Cardo', serif;
     font-size: .8rem;
     text-align:center;
+}
+
+@keyframes twirl{
+    0% { transform: rotateY(0deg)}
+    100% {transform: rotateY(360deg)}
 }
