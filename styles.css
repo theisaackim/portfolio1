@@ -74,7 +74,7 @@ nav{
 #projects-container{
     display: grid;
     grid-template-columns: 1fr 1.25fr 1.25fr 1.25fr 1fr;
-    grid-template-rows: ;
+
     height: 20rem;
     justify-items: center;
     margin-top: 30px;
@@ -85,7 +85,7 @@ nav{
     color:#f7f2ee;
     grid-row: 1;
     grid-column: 2;
-    height: 75%;
+    height: 90%;
     width: 95%;
 }
 #project-2{
@@ -93,7 +93,7 @@ nav{
     background-color: grey;
     grid-row:1;
     grid-column: 3;
-    height: 75%;
+    height: 90%;
     width: 95%;
 }
 #project-3{
@@ -101,7 +101,7 @@ nav{
     background-color: #4d4c4a;
     grid-row:1;
     grid-column: 4;
-    height: 75%;
+    height: 90%;
     width: 95%;
 }
 #project-1-label{
@@ -129,4 +129,52 @@ nav{
     grid-row: 1;
     align-items:flex-start;
     font-family: 'Silkscreen', cursive;
+}
+#Contact-container{
+    display: block;
+    width:65%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+#Contact-container a{
+    cursor:pointer;
+}
+#email{
+    background-color:#4d4c4a;
+    color:#f7f2ee;
+    font-family: 'Silkscreen', serif;
+    text-align:center;
+    height: 2rem;
+    
+}
+#linkedin{
+    background-color:#4d4c4a;
+    color:#f7f2ee;
+    font-family: 'Silkscreen', serif;
+    text-align: center;
+    border-top:#f7f2ee 1px solid;
+    height: 2rem
+}
+#github{
+    background-color:#4d4c4a;
+    color:#f7f2ee;
+    font-family: 'Silkscreen', serif;
+    border-top:#f7f2ee 1px solid;
+    height: 2rem;
+    text-align: center;
+}
+#instagram{
+    background-color:#4d4c4a;
+    color:#f7f2ee;
+    font-family: 'Silkscreen', serif;
+    text-align: center;
+    height: 2rem;
+    border-top:#f7f2ee 1px solid;
+}
+footer{
+    margin-top: 1.5rem;
+    font-family: 'Cardo', serif;
+    font-size: .8rem;
+    text-align:center;
 }
