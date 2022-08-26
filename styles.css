@@ -184,6 +184,13 @@ nav{
     height: 2rem;
     border-top:#f7f2ee 1px solid;
 }
+#comment-container{
+    display:flex;
+    justify-content:center ;
+}
+#comment-box{
+    display:flex;
+}
 footer{
     margin-top: 1.5rem;
     font-family: 'Cardo', serif;

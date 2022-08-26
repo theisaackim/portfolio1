@@ -59,7 +59,6 @@ instagram.onmouseleave = () => {
     instagram.style.color = '#f7f3ee';
     instagram.style.border = '';
 }
-
 let myName = document.getElementById('name');
 myName.onmouseover = () => {
     myName.innerHTML = 'isaac kim';
